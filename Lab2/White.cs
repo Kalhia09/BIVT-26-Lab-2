@@ -54,19 +54,19 @@ namespace Lab2
             return answer;
         }
 
-        public int Task5(int L)
-        {
-            int answer = 1;
-            long product = 1;
+       public int Task5(int L)
+{
+    int answer = 1;
+    int product = 1;
 
-            while (product <= L)
-            {
-                answer += 3;
-                product *= answer;
-            }
+    while (product <= L)
+    {
+        answer += 3;
+        product *= answer;
+    }
 
-            return answer;
-        }
+    return answer;
+}
 
         public double Task6(double x)
         {
